@@ -22,5 +22,20 @@
   "devDependencies": {
     "semistandard": "^9.2.1"
   },
-  "author": "David Weinstein <dweinst@insitusec.com>"
+  "author": "David Weinstein <dweinst@insitusec.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dweinstein/node-itunes-rss.git"
+  },
+  "keywords": [
+    "itunes",
+    "rss",
+    "cli",
+    "feed",
+    "ranking"
+  ],
+  "bugs": {
+    "url": "https://github.com/dweinstein/node-itunes-rss/issues"
+  },
+  "homepage": "https://github.com/dweinstein/node-itunes-rss#readme"
 }
