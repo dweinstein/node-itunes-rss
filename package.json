@@ -1,0 +1,26 @@
+{
+  "name": "itunes-rss-cli",
+  "version": "1.0.0",
+  "description": "itunes rss feed CLI",
+  "main": "index.js",
+  "bin": {
+    "itunes-rss": "./bin.js"
+  },
+  "scripts": {
+    "test": "semistandard"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "bluebird": "^3.4.6",
+    "bluebird-co": "^2.2.0",
+    "commander": "^2.9.0",
+    "i18n-iso-countries": "^1.10.0",
+    "lodash": "^4.17.4",
+    "rss": "^1.2.1"
+  },
+  "devDependencies": {
+    "semistandard": "^9.2.1"
+  },
+  "author": "David Weinstein <dweinst@insitusec.com>"
+}
