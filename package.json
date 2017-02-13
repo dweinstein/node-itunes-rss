@@ -6,6 +6,7 @@
   "bin": {
     "itunes-rss": "./bin.js"
   },
+  "preferGlobal": true,
   "scripts": {
     "test": "semistandard"
   },
