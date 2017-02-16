@@ -19,7 +19,7 @@ const program = commander
   .option('-f, --feed [feed]', `Select feed (default: top_free_applications) `)
   .option('-g, --genre [genre]', `Select genre (default: all)`)
   .option('-c, --country [country]', 'Select country (default: US)')
-  .option('--format', 'Output format (default: json)')
+  .option('--format [json|xml]', 'Output format (default: json)')
   .option('-l, --limit [limit]', 'Limit/count (default 100)')
   .option('-F, --list-feeds', 'List feeds')
   .option('-G, --list-genres', 'List genres')
@@ -75,5 +75,9 @@ co.execute(function * () {
   });
 
   const res = yield feed.read();
-  console.log(JSON.stringify(res.data, null, 4));
+  if (opt.format === 'json') {
+    console.log(JSON.stringify(res.data, null, 4));
+  } else {
+    console.log(res.data);
+  }
 }).done();
