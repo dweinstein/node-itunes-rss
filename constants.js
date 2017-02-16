@@ -4,7 +4,16 @@ const codes = require('./codes.json');
 const {chain} = require('lodash');
 
 module.exports = {
+  CLI_DEFAULTS: {
+    country: 'US',
+    limit: 100,
+    feed: 'top_free_applications',
+    genre: null,
+    format: 'json'
+  },
+
   DEFAULT_BASE_URL: 'https://itunes.apple.com',
+
   FEED_TYPES: {
     new_applications: 'newapplications',
     new_free_applications: 'newfreeapplications',
@@ -16,6 +25,7 @@ module.exports = {
     top_paid_applications: 'toppaidapplications',
     top_paid_ipad_applications: 'toppaidipadapplications'
   },
+
   GENRES: {
     Business: 6000,
     Weather: 6001,
