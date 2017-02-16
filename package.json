@@ -1,6 +1,6 @@
 {
   "name": "itunes-rss-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "itunes rss feed CLI",
   "main": "index.js",
   "bin": {
