@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dweinstein/node-itunes-rss.svg?branch=master)](https://travis-ci.org/dweinstein/node-itunes-rss)
+
 # SYNOPSIS
 
 A CLI tool for the iTunes RSS feed.
